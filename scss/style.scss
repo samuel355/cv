@@ -49,7 +49,6 @@ body {
 	font-weight: 400;
 	color: lighten($black,60%);
 	&.menu-show {
-		overflow: hidden;
 		position: fixed;
 		height: 100%;
 		width: 100%;
