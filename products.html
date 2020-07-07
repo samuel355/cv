@@ -7,6 +7,22 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+    <script type="text/JavaScript" src="/livehelp/scripts/jquery-latest.js"></script>
+    <script type="text/javascript">
+        var LiveHelpSettings = {};
+        LiveHelpSettings.server = 'www.samuel355.github.io/cv';
+        LiveHelpSettings.embedded = true;
+        (function(d, $, undefined) {
+            $(window).ready(function() {
+                // JavaScript
+                var LiveHelp = d.createElement('script'); LiveHelp.type = 'text/javascript'; LiveHelp.async = true;
+                LiveHelp.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + LiveHelpSettings.server + '/livehelp/scripts/jquery.livehelp.js';
+                var s = d.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(LiveHelp, s);
+            });
+        })(document, jQuery);
+    </script>
+
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -107,7 +123,7 @@
                 <div class="work-box">
                     <a href="img/Portfolio/logos/Aimed%20Global%20logo.jpg" data-lightbox="gallery-mf">
                         <div class="work-img">
-                            <img src="img/Portfolio/logos/AltimateGymLogo.jpg" alt="" class="img-fluid">
+                            <img src="img/Portfolio/logos/Aimed%20Global%20logo.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="work-content">
                             <div class="row">
